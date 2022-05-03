@@ -199,3 +199,28 @@ $(function () {
       shuffleme.init(); //filter portfolio
     };
 }());
+
+const CarlSagan = {
+    id: document.getElementById("CarlSagan"),
+    state : true,
+    english: 'When we look up at night and view the stars, everything we see is shinning because of distant nuclear fusion.',
+    italian: "Quando guardiamo in alto la notte e vediamo le stelle, tutto ciò che vediamo sta brillando a causa di una fusione nucleare lontana"
+
+}
+CarlSagan.id.addEventListener("click", () => {
+    CarlSagan.id.children[1].innerHTML = CarlSagan.state ? CarlSagan.italian : CarlSagan.english;
+    CarlSagan.state = !CarlSagan.state;
+})
+
+const AlbertEinstein = {
+    id: document.getElementById("AlbertEinstein"),
+    state : true,
+    english: 'The release of atomic energy has not created a new problem. It has only made more urgent the necessity of solving an existing one.',
+    italian: "Il rilascio di energia atomica non ha creato un nuovo problema. Ha solamente reso più urgente la necessità di risolverne uno già esistente."
+
+}
+AlbertEinstein.id.addEventListener("click", () => {
+    AlbertEinstein.id.children[1].innerHTML = AlbertEinstein.state ? AlbertEinstein.italian : AlbertEinstein.english;
+    AlbertEinstein.state = !AlbertEinstein.state;
+})
+
