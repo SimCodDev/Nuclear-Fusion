@@ -425,7 +425,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero3.jpg) center no-repeat;
+  background: url(../img/hero14.JPG) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -442,6 +442,14 @@ html, body {
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+.hero-payoff {
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: left;
+  top: 32vh;
+  position: relative;
 }
 
 .hero-content {
