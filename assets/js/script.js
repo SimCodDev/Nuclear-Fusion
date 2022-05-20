@@ -224,3 +224,15 @@ AlbertEinstein.id.addEventListener("click", () => {
     AlbertEinstein.state = !AlbertEinstein.state;
 })
 
+const StephenHawking = {
+    id: document.getElementById("Stephen-Hawking"),
+    state: true,
+    english: "I would like nuclear fusion to become a <span>practical power source</span>. It would provide an inexhaustible supply of energy, without <span>pollution or global warming</span>.   S.Hawking",
+    italian: "Mi piacerebbe che la fusione nucleare diventasse una <span>fonte di energia utilizzabile</span>. Essa fornirebbe un'inesaustibile fornitura di energia, senza <span>inquinamento o riscaldamento globale</span>.    S.Hawking"
+}
+
+StephenHawking.id.addEventListener("click", () => {
+    StephenHawking.id.children[0].innerHTML = StephenHawking.state ? StephenHawking.italian : StephenHawking.english
+    StephenHawking.state = !StephenHawking.state
+})
+

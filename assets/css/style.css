@@ -456,6 +456,61 @@ html, body {
   position: relative;
 }
 
+@media (max-height: 600px) {
+  .hero-payoff {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: left;
+    top: 28vh;
+    font-size: small;
+    position: relative;
+  }
+}
+
+@media (max-height: 500px) {
+  .hero-payoff {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: left;
+    top: 24vh;
+    font-size: small;
+    position: relative;
+  }
+}
+
+@media (max-height: 400px) {
+  .hero-payoff {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: left;
+    top: 18vh;
+    font-size: small;
+    position: relative;
+  }
+}
+
+@media (max-height: 350px) {
+  .hero-payoff {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: left;
+    top: 16vh;
+    font-size: small;
+    position: relative;
+  }
+}
+
+@media (max-height: 300px) {
+  .hero-payoff {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: left;
+    top: 12vh;
+    font-size: small;
+    position: relative;
+  }
+}
+
 .hero-content {
   color: #ffffff;
   display: table-cell;
@@ -2057,6 +2112,21 @@ html, body {
 }
 
 .section-quote p span {
+  color: #04b2d5;
+}
+
+.section-quote2 {
+  background: url(../img/bg-6.jpeg) center no-repeat fixed;
+  background-size:cover;
+
+}
+
+.section-quote2 p {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.section-quote2 p span {
   color: #04b2d5;
 }
 
